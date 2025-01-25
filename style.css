@@ -51,8 +51,10 @@ body {
     background-color: aliceblue;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin: auto;
-    padding: 20px;
-    border: 1px solid black;
+    padding: 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
 }
 
 #container2 a {
@@ -139,7 +141,7 @@ ul li {
 }
 
 #container4 {
-    background-image: url(cont-backg-img.jpg);
+    background-image: url(cont-back-img.jpg);
     padding: 10px 40px 40px 40px;
     border: 1px solid black;
     border-radius: 10px;
