@@ -20,12 +20,12 @@ body {
 
 #container h1 {
     color: white;
-    font-size: 45px;
+    font-size: 60px;
     text-align: left;
     flex: 1;
-    font-weight: bold;
+    font-weight: bolder;
     /* font-style: italic; */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica, sans-serif;
     padding: auto;
     text-indent: 50px;
 }
@@ -35,13 +35,68 @@ body {
     float: right;
     /* height: auto; */
     flex-direction: column;
-
+    margin-top: 30px;
+    margin-right: 30px;
 } 
 
 #container #LIGA {
     height: 100px;
     float: right;
     /* height: auto; */
-    padding-right: 100px;
+    padding-right: 50px;
+    margin-top: 30px;
 }
 
+#container2 {
+    background-color: gray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 20px;
+}
+
+#container2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container2 div {
+    background-color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#SQUAT {
+    margin-left: 50px;
+}
+
+#container3 {
+    padding: 0 40px 0 40px;
+}
+
+#container3 img {
+    width: auto;
+    height: 200px;
+    margin-left: 50px;
+    /* display: inline-block; */
+}
+
+#container3 p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#container3 h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#ball {
+    display: flex; 
+    align-items: center; 
+}
