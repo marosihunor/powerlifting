@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-image: url(NEUMORPHIC_CIRCLES_BACKGROUND.jpg);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -48,10 +48,11 @@ body {
 }
 
 #container2 {
-    background-color: gray;
+    background-color: aliceblue;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin: auto;
     padding: 20px;
+    border: 1px solid black;
 }
 
 #container2 a {
@@ -74,8 +75,19 @@ body {
     margin-left: 50px;
 }
 
+#ball img {
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#jobb img {
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
 #container3 {
     padding: 0 40px 0 40px;
+    border: 5px solid black;
 }
 
 #container3 #ball img {
@@ -116,7 +128,7 @@ body {
 }
 
 ul li {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 10px;
     text-align: justify;
     line-height: 1.5;
@@ -124,4 +136,33 @@ ul li {
 
 #idg {
    padding-bottom: 30px;
+   font-size: 60px;
+}
+
+#container4 {
+    background-image: url(pexels-knownasovan-62693.jpg);
+    padding: 10px 40px 40px 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#fels {
+    width: 65%;
+}
+
+#rendezes {
+    display: flex; 
+    align-items: center; 
+}
+
+#rendezes img {
+    width: 100%;
+    height: 300px;
+    margin: 0 30px 30px 50px;
+    border: 5px solid black;
+    border-radius: 20px;
+    
 }
