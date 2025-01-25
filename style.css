@@ -1,0 +1,47 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #ff3333;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+   /*  max-width: 600px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    
+}
+
+#container h1 {
+    color: white;
+    font-size: 45px;
+    text-align: left;
+    flex: 1;
+    font-weight: bold;
+    /* font-style: italic; */
+    font-family: 'Courier New', Courier, monospace;
+    padding: auto;
+    text-indent: 50px;
+}
+
+#container #MERSZ {
+    height: 100px;
+    float: right;
+    /* height: auto; */
+    flex-direction: column;
+
+} 
+
+#container #LIGA {
+    height: 100px;
+    float: right;
+    /* height: auto; */
+    padding-right: 100px;
+}
+
