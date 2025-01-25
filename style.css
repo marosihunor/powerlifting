@@ -1,5 +1,5 @@
 body {
-    background-image: url(NEUMORPHIC_CIRCLES_BACKGROUND.jpg);
+    background-image: url(background-img.jpg);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -140,7 +140,7 @@ ul li {
 }
 
 #container4 {
-    background-image: url(pexels-knownasovan-62693.jpg);
+    background-image: url(cont-backg-img.jpg);
     padding: 10px 40px 40px 40px;
     border: 1px solid black;
     border-radius: 10px;
