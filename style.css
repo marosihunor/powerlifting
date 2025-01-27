@@ -79,6 +79,8 @@ body {
 
 #container2 div:hover {
     background-color: #555;
+    transform: scale(1.2);
+    transition: color 0.3s;
 }
 
 #SQUAT {
@@ -220,7 +222,6 @@ footer {
 
 .footer1 ul li a:hover {
     color: #007bff;
-    text-decoration: underline;
 }
 
 .social-icons {
