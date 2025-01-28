@@ -26,3 +26,71 @@ body {
     padding: auto;
     text-indent: 50px;
 }
+
+#alapcontainer {
+    background-image: url(cool-background\ \(2\).png);
+    background-size: cover;
+    padding: 10px 40px 40px 40px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#kezdolap {
+    background-color: aliceblue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 30px;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+#content {
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    height: auto;
+}
+
+#content p {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.text {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+#alapcontainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+    background-image: url(cool-background\ \(2\).png);
+    background-size: cover;
+    padding: 10px 40px 40px 40px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.content1 { 
+    flex: 1 1 30%;
+    min-width: 200px;
+}
+
+iframe {
+    position: relative;
+    top: 150px;
+    border: 5px solid black;
+}
