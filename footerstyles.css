@@ -65,3 +65,13 @@ footer {
     font-size: 1.3em;
     color: #ccc;
 }
+
+
+.Email {
+    color: white;
+    text-decoration: none;
+}
+
+.Email:hover {
+    color: red;
+}

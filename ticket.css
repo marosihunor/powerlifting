@@ -1,0 +1,9 @@
+body {
+    background-image: url(/források/background-img.jpg);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
