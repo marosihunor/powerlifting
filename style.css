@@ -1,5 +1,5 @@
 body {
-    background-image: url(background-img.jpg);
+    background-image: url(források/background-img.jpg);
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 #container {
-    background-image: url(guggolás.png);
+    background-image: url(források/guggolás.png);
     background-size: cover;
     padding: 10px;
     display: flex;
@@ -68,8 +68,8 @@ body {
 
 #container2 div:hover {
     background-color: #555;
-    transform: scale(1.2);
-    transition: color 0.3s;
+    transform: scale(1.1);
+    transition: color 0.5s;
 }
 
 #SQUAT {
@@ -140,7 +140,7 @@ ul li {
 }
 
 #container4 {
-    background-image: url(cont-back-img.jpg);
+    background-image: url(források/cont-back-img.jpg);
     padding: 10px 40px 40px 40px;
     border-radius: 10px;
     margin-top: 30px;
