@@ -1,0 +1,24 @@
+body {
+    background-image: url(források/deadlift-backg.jpg);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#container {
+    margin: auto;
+    width: 600px;
+    background-color: white;
+    margin-top: 250px;
+    padding: 5px 12px 5px 12px;
+}
+
+#container1 {
+    margin: auto;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding: 20px 12px 20px 12px;
+}
