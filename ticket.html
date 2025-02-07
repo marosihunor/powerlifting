@@ -10,12 +10,27 @@
 <body>
     <div id="container">
         <h1>Nyisson egy ticketet!</h1>  
-
-
     </div>
     <div id="container1">
-        <h2>Vezetéknév</h2>
-        <input type="text">
+        <h2>Adatok</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Név:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email cím:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Üzenet:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+            <label for="phone">Telefon:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+    
+            <label for="newsletter">Feliratkozás a hírlevélre:</label>
+            <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+    
+            <input type="submit" value="Küldés">
+        </form>
     </div>
 </body>
 </html>
